@@ -1,8 +1,8 @@
 
-apt update -y
-apt upgrade -y
+sudo apt update -y
+sudo apt upgrade -y
 
-apt install git cmake build-essential libuv1-dev libssl-dev libhwloc-dev -y
+sudo apt install git cmake build-essential libuv1-dev libssl-dev libhwloc-dev -y
 cd 
 git clone https://github.com/xmrig/xmrig.git
 cd xmrig
